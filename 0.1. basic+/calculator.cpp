@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 
+
 int main() {
     setlocale(0, "Russian");
 
@@ -39,7 +40,7 @@ void standartCalc() {
     double number2;
 
     do {
-        std::cout << "Введите операцию (+, -, *, /, ^, info)" << std::endl;
+        std::cout << "Введите операцию (+, -, *, /, ^, info)" << std::endl; // подумать о функциях стандартного калькулятора
         std::cin >> operation;
 
         switch (true) {
@@ -63,16 +64,16 @@ void standartCalc() {
 
         }
 
-    } while(true);
-}
+    } while(true); // прописать условие для калькулятора
+} 
 
 
 void ingenerCalculator() {
-
+    // продумать расширенный калькулятор
 };
 
 void calc2() {
-
+    // калькулятор дробей
 };
 
 void multiplicationTable(int number) {
